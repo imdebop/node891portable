@@ -13,8 +13,9 @@ app.on('window-all-closed', function() {
 
 app.on('ready', function() {
 
-  // ƒuƒ‰ƒEƒU(Chromium)‚Ì‹N“®, ‰Šú‰æ–Ê‚Ìƒ[ƒh
+  // ï¿½uï¿½ï¿½ï¿½Eï¿½U(Chromium)ï¿½Ì‹Nï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ìƒï¿½ï¿½[ï¿½h
   mainWindow = new BrowserWindow({width: 800, height: 600});
+  mainWindow.setTitle("æŸ³ç”Ÿå·åœŸåœ°åŒºç”»æ•´ç†çµ„åˆ");
   mainWindow.loadURL('file://' + __dirname + '/index.html');
 
   mainWindow.on('closed', function() {
