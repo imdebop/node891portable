@@ -4,8 +4,8 @@ var glob = require('glob');
 
 var fileUtil = {
   fetchReadmeList: function (cb) {
-//    glob('../node_modules/**/README.md', function (err, matches) {
-    glob('in*', function (err, matches) {
+    glob('../node_modules/**/README.md', function (err, matches) {
+//    glob('in*', function (err, matches) {
       if(err) {
         cb(err, null);
         return;

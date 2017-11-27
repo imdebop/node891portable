@@ -18,7 +18,7 @@ app.on('ready', function() {
   title: '柳生川土地区画整理組合'});
 //  mainWindow.setTitle("柳生川土地区画整理組合");
   mainWindow.loadURL('file://' + __dirname + '/index.html');
-  mainWindow.webContents.openDevTools();
+//  mainWindow.webContents.openDevTools();
 
   mainWindow.on('closed', function() {
     mainWindow = null;
